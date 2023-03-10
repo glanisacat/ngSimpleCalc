@@ -1,0 +1,139 @@
+.mycalc {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(197, 217, 242);
+}
+
+.all-btn {
+  display: flex;
+}
+
+.all-btn-numbers {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+}
+
+.all-btn-signs {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-btn-numbers button {
+  background-color: rgb(253, 253, 149);
+  border: none;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-btn-signs button {
+  background-color: rgb(34, 94, 223);
+  border: none;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-btn-numbers button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  -moz-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+}
+
+.all-btn-signs button:hover {
+  -webkit-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  -moz-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+}
+
+.btn-extra {
+  display: flex;
+}
+
+.btn-extra button {
+  background-color: rgb(248, 248, 181);
+  color: rgb(34, 35, 34);
+}
+
+.btn-extra button:hover {
+  -webkit-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  -moz-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+}
+
+.btn-clear-equals {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn-clear-equals button {
+  width: 120px;
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 20px;
+}
+
+#clear {
+  color: yellow;
+  background-color: rgb(34, 94, 223);
+}
+
+#equals {
+  color: blue;
+  background-color: yellow;
+}
+
+#clear:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  -moz-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+}
+
+#equals:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  -moz-box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+  box-shadow: inset -10px -9px 43px -25px rgba(94, 84, 84, 0.97);
+}
+
+input {
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+}
