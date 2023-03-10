@@ -1,6 +1,11 @@
 <div>
   <div class="mycalc">
-    <input #box (keyup.enter)="calcValue(box.value)"[(ngModel)]="toShow" type="text">
+    <input
+      #box
+      (keyup.enter)="calcValue(box.value)"
+      [(ngModel)]="toShow"
+      type="text"
+    />
     <div class="all-btn">
       <div class="all-btn-numbers button">
         <button (click)="writeToInput('1')">1</button>

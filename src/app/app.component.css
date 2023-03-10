@@ -124,16 +124,16 @@
 }
 
 input {
-    width: 80%;
-    margin: 10px 0px;
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid yellow;
-    border-radius: 20px;
-    font-weight: 700;
+  width: 80%;
+  margin: 10px 0px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid yellow;
+  border-radius: 20px;
+  font-weight: 700;
 }
 
 input:focus {
-    outline: none;
-    border: 1px solid blue;
+  outline: none;
+  border: 1px solid blue;
 }
